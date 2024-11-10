@@ -1,0 +1,13 @@
+{
+  "extends": "../tsconfig.base.json",
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "allowJs": true,
+    "esModuleInterop": true,
+    "baseUrl": "../",
+    "paths": {
+      "@components/*": ["components/*/src"]
+    }
+  },
+  "include": ["*.ts", "*.tsx", "../components/*/src/**/*.stories.tsx", "../components/*/src/**/*.stories.ts"]
+}
